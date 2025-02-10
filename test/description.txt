@@ -1,0 +1,20 @@
+--for start : 1- startPage.html
+              2-start.css
+              3-main.js
+
+
+--for game : 1-gamepage.html
+             2-game.css   
+             3-gamepage.js
+             4-gameMethods.js
+
+
+--for option : option.html (include html css js )
+
+--for gameOver : 1-gameOver.html(html and css)
+                 2-gameover.js
+
+-- for Score : 1-score.html( html and css )
+               2-score.js
+
+               

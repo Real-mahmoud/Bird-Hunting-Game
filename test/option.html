@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('images/Optionbg.jpg');
+            
+            background-repeat: no-repeat;
+        }
+        div {
+            margin: 200px auto;
+            background: linear-gradient(to bottom, #ffffff3b, #003fa4a6);
+            width: 20%;
+            text-align: center;
+            padding: 100px;
+            height: 100px;
+            border-radius: 40px;
+            color: #2769cf;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        p {
+            display: inline;
+        }
+        img {
+            width: 30px;
+            vertical-align: bottom;
+        }
+        #start, #game {
+            font-size: 20px;
+            width: 180px;
+            height: 40px;
+            margin: 10px;
+            color: white;
+            background-color: #038e826c;
+            border-radius: 35px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/sound.png" alt="">
+        <p>In Game Sound:</p>
+        <input type="checkbox" id="soundCheck" checked>
+        <br><br>
+        <input type="button" value="Back To Game" id="game">
+        <input type="button" value="Go To Start Page" id="start">
+
+
+    </div>
+    <script src="gamePage.js"></script>
+    <script>
+        window.addEventListener('load',()=>{
+            let startBtn=document.getElementById('start');
+            let gameBtn=document.getElementById('game');
+            startBtn.addEventListener('click',()=>{
+            window.open('startPage.html','_self');
+            })
+            gameBtn.addEventListener('click',()=>{
+               let abc= window.open('gamePage.html','_self');
+              
+            })
+        })
+
+    </script>
+</body>
+</html>

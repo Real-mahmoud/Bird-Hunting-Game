@@ -1,0 +1,50 @@
+body {
+    background-image: url('images/1wzvd9.webp');
+    background-repeat: no-repeat;
+    /* the overflow is for when bird goes outside of the window width it hide the bird body and dont show scroll bar */
+    overflow: hidden; 
+    cursor: none;
+}
+
+#gun {
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform-origin: center left; /* Rotates from the bottom center */
+    transition: transform 0.05s linear;
+}
+
+#bird {
+    width: 400px;
+}
+
+#cursor {
+    width: 3rem;
+    height: 3rem;
+    background: url('images/aim.png') no-repeat center;
+    position: absolute;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.bullet {
+    width: 50px;
+    height: 40px;
+    transition: left 0.3s linear, top 0.3s linear;
+}
+
+.ammoDiv {
+    position: absolute;
+}
+.ammo {
+
+    width: 50px;
+    
+}
+
+#setting {
+    position: absolute;
+    left: 95%;
+    width: 50px;
+    cursor: pointer;
+}
