@@ -17,7 +17,7 @@ window.addEventListener('load',()=>{
     });
     goToStartbtn.addEventListener('click',()=>{
         localStorage.setItem('score', 1);
-        window.open('startPage.html','_self');
+        window.open('index.html','_self');
     });
 });
 

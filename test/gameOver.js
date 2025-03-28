@@ -9,7 +9,7 @@ window.addEventListener('load',()=>{
         window.open('gamePage.html','_self');
     });
     goToStartbtn.addEventListener('click',()=>{
-        window.open('startPage.html','_self');
+        window.open('index.html','_self');
     });
 });
 
